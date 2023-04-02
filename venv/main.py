@@ -29,6 +29,7 @@ def play():
     for i in computer_hand:
         current_score_comp += i
 
+
     if current_score_player >= 22:
         print("You lose you are already above 21 !")
     else:
